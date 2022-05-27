@@ -22,3 +22,26 @@
     outline-width: 0;
 }
 
+.search__inputIcon {
+    color: grey;
+}
+
+.search__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search__buttons button {
+    margin: 5px;
+    padding: 7px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid white;
+    color: #5f6368;
+    text-transform: inherit;
+}
+
+.search__buttons button:hover {
+    border-color: lightgrey;
+}
+
